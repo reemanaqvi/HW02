@@ -30,8 +30,22 @@
 # Body
 
 
+def do_twice(f, g):
+	f(g)
+	f(g)
 
+def print_spam(k):
+	print 'spam'
 
+def print_twice (c):
+	print c
+	print c
+
+def do_four(f, x):
+	do_twice (f, x)
+	do_twice (f, x)
+
+do_four(print_twice, 3)
 
 
 

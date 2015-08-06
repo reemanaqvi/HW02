@@ -34,9 +34,41 @@
 ################################################################################
 # Write your functions below:
 # Body
+ 
+def first_half ():
+	print '+', '-' , '-' ,'-' ,'-' ,'+', '-' , '-' ,'-' ,'-' ,
 
+def full_line ():
+	first_half()
+	first_half()
+	print '+'
 
+def pipes ():
+	print '|', ' ', ' ', ' ', ' ','|', ' ', ' ', ' ', ' ',
 
+def full_pipe ():
+	pipes ()
+	pipes ()
+	print '|'
+
+def pipe_stack():
+	full_pipe()
+	full_pipe()
+	full_pipe()
+	full_pipe()
+
+def box():
+	full_line()
+	pipe_stack()
+	full_line()
+	pipe_stack()
+	full_line()
+	pipe_stack()
+	full_line()
+	pipe_stack()
+	full_line()
+
+box()
 
 
 
