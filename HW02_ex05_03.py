@@ -21,7 +21,22 @@
 # Write your functions below:
 # Body
 
+def check_fermat (a, b, c, n):
+	if n >= 2:
+		a^n + b^n == c^n 
+		print 'Holy smokes, Fermat was wrong!'
+	else:
+		print 'that dont work bro'
 
+
+def check_fermat_ints (a, b, c, n):
+	a = int (input('1st number'))
+	b = int (input('2nd number'))
+	c = int (input('3rd number'))
+	n = int (input('raise to power of'))
+
+
+check_fermat_ints (check_fermat)
 
 
 

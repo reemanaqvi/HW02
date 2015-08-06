@@ -23,6 +23,22 @@
 # Write your functions below:
 # Body
 
+def is_triangle (x , y, z):
+    x = int (input('x= '))
+    y = int (input('y= '))
+    z = int (input('z= '))
+    if x > (y + z):
+        print ('No')
+    elif y > (x + z):
+        print ('No')
+    elif z > (x + y):
+        print ('no')
+    else:
+        print ('Yes')
+
+is_triangle (x, y, z)
+
+
 
 
 

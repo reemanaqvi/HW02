@@ -8,15 +8,14 @@
 # Write your functions below:
 # Body
 
+
 def do_n (f, n):
-	if n <= 0:
-		pass
-	else:
-		f()
-		n = n-1
-		do_n (f, n)
-
-
+    if n <= 0:
+        return
+    else:
+        f()
+        n=1
+        do_n (f, n)
 
 
 
